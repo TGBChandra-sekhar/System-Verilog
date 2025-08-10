@@ -1,0 +1,26 @@
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5470 kB (elbread=455 elab2=4869 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: Generated Test Case: a=0 | b=0 | c=0
+# KERNEL: Generated Test Case: a=0 | b=0 | c=1
+# KERNEL: Generated Test Case: a=0 | b=1 | c=0
+# KERNEL: Generated Test Case: a=0 | b=1 | c=1
+# KERNEL: Generated Test Case: a=1 | b=0 | c=0
+# KERNEL: Generated Test Case: a=1 | b=0 | c=1
+# KERNEL: Generated Test Case: a=1 | b=1 | c=0
+# KERNEL: Generated Test Case: a=1 | b=1 | c=1
+# KERNEL: Input applied to DUT: a=0 | b=0 | c=0, Output of DUT: diff:0 | b_out=0
+# KERNEL: Input applied to DUT: a=0 | b=0 | c=1, Output of DUT: diff:1 | b_out=1
+# KERNEL: Input applied to DUT: a=0 | b=1 | c=0, Output of DUT: diff:1 | b_out=1
+# KERNEL: Input applied to DUT: a=0 | b=1 | c=1, Output of DUT: diff:0 | b_out=1
+# KERNEL: Input applied to DUT: a=1 | b=0 | c=0, Output of DUT: diff:1 | b_out=0
+# KERNEL: Input applied to DUT: a=1 | b=0 | c=1, Output of DUT: diff:0 | b_out=0
+# KERNEL: Input applied to DUT: a=1 | b=1 | c=0, Output of DUT: diff:0 | b_out=0
+# KERNEL: Input applied to DUT: a=1 | b=1 | c=1, Output of DUT: diff:1 | b_out=1
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
+Finding VCD file...
+./dump.vcd
+[2025-08-10 14:25:03 UTC] Opening EPWave...
+Done
