@@ -1,0 +1,18 @@
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5468 kB (elbread=455 elab2=4867 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: Generated Test Cases:a=0,b=0
+# KERNEL: Generated Test Cases:a=0,b=1
+# KERNEL: Generated Test Cases:a=1,b=0
+# KERNEL: Generated Test Cases:a=1,b=1
+# KERNEL: Driver Applied Input: a=0,b=0,Output: dif=0,bout=0
+# KERNEL: Driver Applied Input: a=0,b=1,Output: dif=1,bout=1
+# KERNEL: Driver Applied Input: a=1,b=0,Output: dif=1,bout=0
+# KERNEL: Driver Applied Input: a=1,b=1,Output: dif=0,bout=0
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
+Finding VCD file...
+./dump.vcd
+[2025-08-10 14:09:11 UTC] Opening EPWave...
+Done
