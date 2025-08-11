@@ -51,7 +51,7 @@ module tb;
   driver dvr;
   inter aif();
   
-  adder4bit DUT (.a(aif.a),.b(aif.b),.cin(aif.cin),.sum(aif.sum),.cout(aif.cout));
+  adder DUT (.a(aif.a),.b(aif.b),.cin(aif.cin),.sum(aif.sum),.cout(aif.cout));
   
   initial begin
     
