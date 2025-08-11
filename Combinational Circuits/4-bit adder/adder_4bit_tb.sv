@@ -10,7 +10,7 @@ endinterface
 class generator;
   mailbox mbx;
   task run();
-    for(int i=0;i<8;i++) begin
+    repeat(8) begin
       logic [3:0] a = $urandom_range(0, 15);
       logic [3:0] b = $urandom_range(0, 15);
       logic       c = $urandom_range(0, 1);
