@@ -1,4 +1,5 @@
-//Interface
+//------Interface------
+
 interface inter;
   logic a,b,c;
   logic sum,cout;
@@ -6,7 +7,8 @@ endinterface
 
 
 
-//Generator
+//------Generator-----
+
 class generator;
   mailbox mbx;
   task run();
@@ -20,7 +22,8 @@ class generator;
   endtask
 endclass
 
-//Driver
+//------Driver------
+
 class driver;
   mailbox mbx;
   virtual inter vif;
@@ -41,7 +44,8 @@ class driver;
   endtask
 endclass
 
-//Test Bench
+//-----Test Bench------
+
 module tb;
   inter aif();
   generator gen;
@@ -51,8 +55,10 @@ module tb;
   full_adder DUT( .a(aif.a),.b(aif.b),.c(aif.c),.sum(aif.sum),.cout(aif.cout));
   
   initial begin
+    
     $dumpfile("dump.vcd");
-    $dumpvars;
+    $dumpvars(0,tb.DUT);
+    
     gen = new();
     div = new();
     mbx = new();
