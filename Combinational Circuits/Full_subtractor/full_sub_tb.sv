@@ -1,9 +1,9 @@
-//Interface
+//-----Interface------
 interface inter;
   logic a,b,c,diff,b_out;
 endinterface
 
-//Generator
+//-----Generator-----
 class generator;
   mailbox mbx;
   task run();
@@ -17,7 +17,7 @@ class generator;
   endtask
 endclass
 
-//Driver
+//----Driver----
 class driver;
   mailbox mbx;
   virtual inter vif; //virtual interface
@@ -38,7 +38,7 @@ class driver;
   endtask
 endclass
 
-//TB
+//-----TEST BENCH----
 module tb;
   mailbox mbx;
   generator gen;
@@ -51,7 +51,7 @@ module tb;
   initial begin
     
     $dumpfile("dump.vcd");
-    $dumpvars;
+    $dumpvars(0,tb.DUT);
     
     gen = new();
     div = new(); 
